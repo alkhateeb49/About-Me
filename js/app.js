@@ -49,4 +49,3 @@ if(q5.toLowerCase() === "y"){
 }
 
 alert("Thank you "+Name);
-
