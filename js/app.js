@@ -1,7 +1,7 @@
 'use strict';
 var Name=prompt("What's your name?").toLowerCase();
 alert("Welcome "+Name);
-
+confirm("Please answer with y/n");
 
 var q1=prompt("Is my favorite color black? y/n");
 if(q1.toLowerCase() === "y"){
