@@ -1,6 +1,7 @@
 'use strict';
 var correct=0;
 var Name=prompt("What's your name?").toLowerCase();
+var arrayofans = [];
 alert("Welcome "+Name);
 confirm("Please answer with y/n");
 
@@ -52,6 +53,8 @@ if(q5.toLowerCase() === "y"){
   console.log("Not correct :(");
   alert("Not correct :(");
 }
+
+
 var num=Math.floor(Math.random() * 10);//Random number
 for(var i=1;i<=4;i++){
   var q6=prompt('Guess a number between 0 to 10');
@@ -98,5 +101,7 @@ for(i=1;i<=6;i++){
     alert(car);
   }
 }
+
+
 alert(' correct answers : '+correct);
 alert('Thank you '+Name);
