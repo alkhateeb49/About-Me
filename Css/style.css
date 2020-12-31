@@ -6,6 +6,8 @@ background: linear-gradient(90deg, rgba(9,121,112,1) 0%, rgba(0,212,255,1) 100%)
 header{
 border:2px groove#C829FF;
 margin:5px 50px 5px 50px;
+background-color:rgb(13, 14, 36);
+height: 40px;
 }
 
 h1{
@@ -69,4 +71,13 @@ list-style-type:decimal;
 display:block;
 margin-left: 50px;
 color:tomato;
+}
+.img{
+width:200px;
+height:200px;
+}
+.img2{
+float: right;
+width:200px;
+height:200px;
 }

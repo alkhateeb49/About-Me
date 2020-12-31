@@ -19,11 +19,9 @@ alert('Thank you '+Name);
 function q1() {
   var q1=prompt("Is my favorite color black? y/n");
   if(q1.toLowerCase() === "y"){
-    console.log("You are right!");
     alert("You are right!");
     correct++;
   }else{
-    console.log("Not correct :(");
     alert("Not correct :(");
   } 
 }
@@ -31,44 +29,36 @@ function q1() {
 function q2() {  
   var q2=prompt("Is it my favorite programming language is C++? y/n");
   if(q2.toLowerCase() === "n"){
-    console.log("You are right!");
     alert("You are right!");
     correct++;
   }else{
-    console.log("Not correct :(");
     alert("Not correct :(");
   }
 }
 function q3() {
   var q3=prompt("Am I 22 years old? y/n");
   if(q3.toLowerCase() === "y"){
-    console.log("You are right!");
     alert("You are right!");
     correct++;
   }else{
-    console.log("Not correct :(");
     alert("Not correct :(");
   }
 }
 function q4() {
   var q4=prompt("Is my mother tongue Arabic? y/n");
   if(q4.toLowerCase() === "y"){
-    console.log("You are right!");
     alert("You are right!");
     correct++;
   }else{
-    console.log("Not correct :(");
     alert("Not correct :(");
   }
 }
 function q5() {
   var q5=prompt("Do I love all pets? y/n");
   if(q5.toLowerCase() === "y"){
-    console.log("You are right!");
     alert("You are right!");
     correct++;
   }else{
-    console.log("Not correct :(");
     alert("Not correct :(");
   }
 }
@@ -77,15 +67,12 @@ function q6(num) {
     var q6=prompt('Guess a number between 0 to 10');
     if(parseInt(q6) === num){
       alert("You are right!");
-      console.log("You are right!");
       correct++;
       break;
     }else if(parseInt(q6)> num){
       alert("Too high"); 
-      console.log("Too high");
     }else if(parseInt(q6)< num){
       alert('Too low');
-      console.log("Too low");
     }else{
       alert("Enter number!");}
     if(i===4){
@@ -104,12 +91,10 @@ function q7(cars) {
     }
     if(C){
       alert('You are right!');
-      console.log("You are right!");
       correct++;
       break;
     }else{
       alert('Not correct :(');
-      console.log("Not correct :(");
     }
     if(i===6){
       var car='The right cars are : ';
